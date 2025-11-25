@@ -60,7 +60,7 @@ function App() {
             marginBottom: '8px',
           }}
         >
-          Annur Tasnim Tuba
+          Annur Tasnim
         </h1>
 
         <p
