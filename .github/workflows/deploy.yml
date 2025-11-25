@@ -33,6 +33,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           source: 'build/*'
           target: '/var/www/my-profile/'
+          strip_components: 1
 
       # 👉 Restart nginx
       - name: SSH reload nginx
